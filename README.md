@@ -1,7 +1,18 @@
 # CS-300-DSA
 DSA: Analysis and Design
+  This is a repository representing my work done in this class. The project_1_Cabaniss.docx that is a word doc that gives an analysis of the run-time and memory for the data structures covered. I also added my programming from the second project, creating a data structure and putting it to use. The program takes a course list file and parses it into a singly linked list. You can the sort, search, and print the courses and its prerequisites.
+
 # What was the problem you were solving in the projects for this course?
+  The assignment was the academic advisors at ABCU has come to me plan, design, and build a program that they could use to keep track of courses and their prerequisites. The first part of was disigning pseudocode and presenting data on different types of data structures for the project. I covered singlyy and doubly linked lists, binary trees, and hash tables. After presenting the evidence it was time to design and build a program that implemented the best data structure for the job. 
+
 # How did you approach the problem? Consider why data structures are important to understand.
+  After the initial research, I had a pretty good idea of which data structure to pick. I knew that the data coming in wasnt complicated or bulky. It would be a course number, course name, and any prerequisites. To me, this ruled out a binary tree because the structure of that was unnecessarily complex for this criteria. I also knew that the data had to be put in order, which means a hash table is out of the question. I was left with a linked list and decide to go with a singly linked list. While doubly would do just fine, I felt that it was unnecessary fo the need to back track with simpple data coming through like this.
+  
 # How did you overcome any roadblocks you encountered while going through the activities or project?
+  One thing this course lacked was relevant zybooks work. While they did a great job of explaining algorithms and how they are specifically implemented, it did not go over the entire scope of implementation, and the functions involved. I googled many tutorials different implementations to gain a better understanding of how it should be implemented in C++. When I dont understand a certain concept, I will keep researching until the light bulb goes off. So even though I had to look a little harder, I gained a deeper undertanding of how these data structures are built.
+  
 # How has your work on this project expanded your approach to designing software and developing programs?
+  Sometimes you dont know you're doing something wrong until someone shows you the right way, and then it clicks. Thats how I feel about data structures. After what I have learned in this course, I have a new perspective on different coding techniques. I can see where in my previous written code I could have saved time (and processing power) by implementing data structures. It also has given me a deeper understanding of why it is so important to consider the effeciency of the algoroithm and how the structur and volume of the incoming data affects it. 
+  
 # How has your work on this project evolved the way you write programs that are maintainable, readable, and adaptable?
+  Absolutely! I think that this is the most prep I have done for an assignment. With all of the designing and researching done, I felt much more confident when writing the program. Usually the vision of the end product can be blurry and hard to grasp. With all of the design, it was much more clear for me, and ultimately lead to a more clean and efficient program.
